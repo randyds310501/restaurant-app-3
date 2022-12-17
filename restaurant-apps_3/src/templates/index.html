@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Restaurant Apps Starter Project</title>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <meta name="description" content="Free movie catalogue for you" />
+    <link rel="icon" href="./favicon.png" />
+    <link rel="manifest" href="./app.webmanifest" />
+    <meta name="theme-color" content="#DB0000" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+  </head>
+  <body>
+    <a href="#latest" class="skip-link">Skip To Content</a>
+    <header>
+      <h1 id="app-bar" tabindex="0">Restaurant</h1>
+      <!-- Navbar -->
+      <div class="buttonn" id="buttonn">
+        <button id="hamburger" href="#">☰</button>
+      </div>
+      <nav class="navbar" id="drawer">
+        <ul class="navbar-menu">
+          <li class="item"><a href="/" tabindex="0" id="home-page">Home</a></li>
+          <li class="item">
+            <a href="#/like" tabindex="0" id="favorite-page">Favorite</a>
+          </li>
+          <li class="item">
+            <a
+              href="https://www.linkedin.com/in/maharrandi-dwiki-saputra-71a30b199/"
+              tabindex="0"
+              id="about-page"
+              >About Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <picture>
+        <source media="(max-width: 600px)" srcset="./images/heros/hero-image_1-small.jpg">
+        <img 
+        src='./images/heros/hero-image_1-large.jpg' 
+        alt="poster"></img>
+    </picture>
+    </div>
+
+    <div id="restaurant" class="restaurant"></div>
+
+    <!-- Content -->
+    <section class="content">
+      <h1 tabindex="0">About Us</h1>
+      <article class="headline">
+        <figure class="headline__figure">
+          <img
+            src="./images/heros/hero-image_1.jpg"
+            alt="Dicoding Fact Sheet"
+          />
+        </figure>
+        <div class="headline__content">
+          <h2 class="headline__title">Story Restaurant</h2>
+          <p class="headline__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+            eum facere nostrum officiis qui quidem ratione similique, soluta
+            veniam voluptatum. Accusantium ad amet asperiores, aut commodi
+            corporis dicta distinctio ducimus expedita itaque laudantium magnam
+            maiores, nobis obcaecati officiis provident quasi qui quos repellat
+            rerum saepe sint soluta veniam vero vitae, voluptas voluptate
+            voluptatem. Esse nobis non nulla optio vero. Laudantium!
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <h1 class="latest__label" tabindex="0">Explore Restaurant</h1>
+    <div class="content">
+      <div id="rest" class="rest"></div>
+    </div>
+
+    <main id="mainContent" tabindex="0"></main>
+
+    <!-- footer -->
+    <footer tabindex="0">
+      <div id="footerTools">
+        <button id="subscribePushNotification" class="btn">
+          Subscribe Push Notification
+        </button>
+        <button id="unsubscribePushNotification" class="btn">
+          Unsubscribe Push Notification
+        </button>
+      </div>
+      <p>Copyright 2022 - Hunger Apps</p>
+    </footer>
+  </body>
+</html>

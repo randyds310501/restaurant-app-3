@@ -1,0 +1,13 @@
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10;
+  padding: 8px;
+  background-color: #bf1722;
+  color: white;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 0px;
+}
